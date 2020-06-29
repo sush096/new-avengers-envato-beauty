@@ -1,0 +1,52 @@
+
+ .header .navbar {
+    padding: 0.5rem 0;
+ }
+    .custom-container {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+ 
+    a:hover{
+        text-decoration: none;
+    }
+
+    .navbar-small-bg{
+        background-color: #D99D5C;
+    }
+
+    .navbar-large-bg, .contact-card{
+        background-color: black;
+    }
+
+.navbar-brand{
+    font-family: 'Belleza', sans-serif;
+}
+
+.checkout-btn, .navigation, .send-msg-btn, .social-icons, .search-btn{
+    background-color: #D99D5C;
+}
+
+.nav-item, li{
+    list-style-type: none;
+}
+
+.nav-bg{
+    background-color:#D99D5C;
+}
+
+.footer-heading{
+    color:  #D99D5C;
+}
+.footer-row{
+    background-color: black;
+}
+
+.contact-border{
+    border: 1px solid #D99D5C ;
+}
+
+hr{
+    border-bottom: 3px solid white;
+}
