@@ -1,0 +1,264 @@
+.main_section{
+	margin: 0px !important;
+    padding: 0px !important}
+
+img{
+	width:100%;
+}
+
+.container-fluid{
+	margin: 0px!important;
+	padding: 0px !important;
+}
+
+.testimonial-item.equal-height.style-6 {
+    background-color: #eee;
+    border-radius: 10px;
+    margin: 10px;
+}
+.owl-item{
+    width:290px !important;
+    margin-left: 25px !important;
+}
+.cell-right {
+    text-align: center;
+    margin-right: 80px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.et_right_sidebar #main-content .container:before{
+    display: none;
+}
+#main-content .container {
+    padding-top: 10px;
+}
+
+.owl-carousel .owl-wrapper-outer {
+    overflow: hidden;
+    position: relative;
+    width: 80% !important;
+    margin-left: 10% !important;
+}
+
+.carousel-section{
+	margin-top: -15%;
+	width:100%;
+}
+
+h1{
+	font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 3.75rem;
+line-height: 109.1%;
+margin-top: 0px;
+}
+
+p{
+	font-family: Open Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 1.563rem;
+line-height: 109.6%;
+
+}
+
+.about-us{
+	height: 635px;
+	background: rgba(1, 112, 113, 0.05);
+	margin-top: 10%;
+}
+
+#section-2{
+	margin-top: 7%;
+}
+
+.btn-orange{
+	font-size: 1.4rem;
+    border-radius: 10px !important;
+    width: 162px;
+	height: 49.07px;
+	color: #fff;
+	background: #FF8870;
+	border-radius: 5px;
+}
+
+.services img{
+	width: 60%
+}
+
+.vector{
+	border: 3px solid #FF8870;
+    width: 20% !important;
+    border-radius: 100%;
+    margin: 4% 0 10% 8%;
+    padding: 2% 0% 2% 4%;
+    line-height: 13rem;
+}
+
+.products{
+	margin-left: 5%;
+}
+.products img{
+	width:45%;
+	margin: 2%;
+}
+
+.our-blog{
+	/*display: flex;*/
+	background-color: #fff;
+}
+
+
+
+.cardsWrapper {
+  display: flex;
+  width: 90%;
+  margin-left:5%;
+
+}
+
+.cards{
+	position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  	margin: 2rem 5.5rem;
+    width: 33%;
+	height: 525px;
+    align-items: center;
+}
+
+.card-figure {
+  margin: 0;
+  min-height: 1px;
+}
+
+.card-image {
+  display: block;
+  max-width: 100%;
+  max-height: 275px;
+}
+
+.card-block {
+  padding: 1rem 1rem 2rem;
+  background-color:#fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+button.card-button {
+  background: #FFFFFF;
+border: 2px solid #FF8870;
+box-sizing: border-box;
+border-radius: 5px;
+width: 150px;
+align-items: center;
+margin-top: 4%;
+}
+
+.card-button:focus {
+  box-shadow: 0 0 0 4px rgba(21, 156, 228, 0.7);
+}
+
+.card-block p{font-family: Open Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 1.2rem;
+line-height: 95%;
+}
+
+.card-block h3{
+	font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 109.1%;
+}
+
+.free-section{
+	background: rgba(0, 140, 138, 0.05);
+}
+.section-4{
+	margin-left: 9.5%;
+}
+
+.small-section{
+	margin: 5% 0%;
+	padding: 0px;
+}
+
+.small-section .col-md-4{
+	padding: 0px;
+}
+
+.small-section h3{
+	font-size: 1.4rem;
+}
+
+.small-section img{
+	width: 84px;
+	height: 84px;
+}
+
+.small-section p{
+	font-family: Open Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 0.9rem;
+line-height: 109.1%;
+}
+
+.btn-orange{
+	background-color: #FF8870;
+	color: #fff;
+	font-weight: bold;
+}
+
+.contact{
+	width: 100%;
+	height:88px;
+	background-color:#fff;
+	color: #fff;
+}
+.contact img{
+	width:30px;
+	height: 30px;
+	/*padding: 15px 19px 15px 0px;*/
+}
+@media (max-width: 768px) {
+   /* .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+*/
+/* display 3 */
+/*@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+  display: flex;
+}
+
+*/
