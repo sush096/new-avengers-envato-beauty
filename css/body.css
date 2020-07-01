@@ -87,6 +87,12 @@ line-height: 109.6%;
 	width: 60%
 }
 
+.services p{
+	font-weight: 300;
+font-size: 25px;
+width: 776px;
+}
+
 .vector{
 	border: 3px solid #FF8870;
     width: 20% !important;
@@ -219,15 +225,80 @@ line-height: 109.1%;
 	width: 100%;
 	height:88px;
 	background-color:#fff;
-	color: #fff;
+	color: #000;
 }
 .contact img{
 	width:30px;
 	height: 30px;
+	cursor: pointer;
+	margin-right: 5%;
 	/*padding: 15px 19px 15px 0px;*/
 }
+
+.contact p{
+	font-size: 14px;
+	color: #ADB5BD;
+}
+
+.contact .col-md-3{
+	display: flex;
+}
+
+/*   footer   */
+
+footer{
+ height: 323px;
+left: 0px;
+top: 88px;
+background: #017071;
+}
+
+footer h5{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+color: #FF8870;
+/*margin-top: 5%;*/
+}
+
+footer h4{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: 16px;
+color: #fff;
+margin-top: 10%;
+}
+
+footer p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 7%;
+  font-size: 14px;
+  line-height: 16px;
+  color: #F8F9FA;
+}
+
+footer img{
+  width:17px;
+  margin-right: 2%;
+}
+
+footer span{
+  margin-left: 10%;
+}
+
+
+
+
+
+
+
 @media (max-width: 768px) {
-   /* .carousel-inner .carousel-item > div {
+    .carousel-inner .carousel-item > div {
         display: none;
     }
     .carousel-inner .carousel-item > div:first-child {
@@ -240,9 +311,9 @@ line-height: 109.1%;
 .carousel-inner .carousel-item-prev {
     display: flex;
 }
-*/
+
 /* display 3 */
-/*@media (min-width: 768px) {
+@media (min-width: 768px) {
     
     .carousel-inner .carousel-item-right.active,
     .carousel-inner .carousel-item-next {
@@ -258,7 +329,5 @@ line-height: 109.1%;
 .carousel-inner .carousel-item-right,
 .carousel-inner .carousel-item-left{ 
   transform: translateX(0);
-  display: flex;
 }
 
-*/
